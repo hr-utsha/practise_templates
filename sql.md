@@ -65,5 +65,17 @@ VALUES ('John Doe', 'HR', 50000.50);
         </tr>
 </table>
 
+```
+DELETE FROM employees WHERE id = 1;
+```
+```
+SELECT * FROM employees ;
+
+SELECT id,name,department FROM employees ;
+
+SELECT * FROM employees
+WHERE salary > 3000 ;
+```
+
 
     
